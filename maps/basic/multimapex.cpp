@@ -20,6 +20,4 @@ int main()
     for(auto it = scoreRange.first;it!= scoreRange.second;++it){
         cout<<it->second<<endl;
     }
-    
-
 }
