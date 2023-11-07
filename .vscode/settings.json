@@ -47,6 +47,8 @@
         "xutility": "cpp",
         "algorithm": "cpp",
         "xtree": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "unordered_map": "cpp",
+        "xhash": "cpp"
     }
 }

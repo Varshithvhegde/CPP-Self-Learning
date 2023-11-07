@@ -3,70 +3,32 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+using namespace std;
 
-// Function to print a map
-template <typename K, typename V>
-void printMap(const std::map<K, V>& inputMap) {
-    for (const auto& pair : inputMap) {
-        std::cout << "Key: " << pair.first << ", Value: " << pair.second << std::endl;
+struct CaseInsensitiveStringCompare
+{
+    bool operator()(const std::string &str1, const std::string &str2) const
+    {
+        // Convert both strings to lowercase before comparison
+        std::string lowerStr1 = str1;
+        std::string lowerStr2 = str2;
+        std::transform(lowerStr1.begin(), lowerStr1.end(), lowerStr1.begin(), ::tolower);
+        std::transform(lowerStr2.begin(), lowerStr2.end(), lowerStr2.begin(), ::tolower);
+        return lowerStr1 < lowerStr2;
     }
-}
+};
 
-int main() {
-    std::map<int, std::string> myMap;
+int main()
+{
+    map<string, int,CaseInsensitiveStringCompare> customSortedMap;
+    customSortedMap["apple"] = 5;
+    customSortedMap["Banana"] = 8;  // Note the mixed case
+    customSortedMap["cherry"] = 12;
+    customSortedMap["date"] = 3;
+    customSortedMap["apricot"] = 9;
 
-    // Populate the map
-    myMap[3] = "Alice";
-    myMap[1] = "Bob";
-    myMap[4] = "Charlie";
-    myMap[2] = "David";
-
-    int choice;
-    std::cout << "Sort by (1 for keys, 2 for values): ";
-    std::cin >> choice;
-
-    if (choice == 1) {
-        // Sort by keys
-        std::cout << "Sort in ascending (1) or descending (2) order: ";
-        std::cin >> choice;
-
-        std::map<int, std::string> sortedMap(myMap.begin(), myMap.end());
-
-        if (choice == 1) {
-            std::cout << "Sorted by keys in ascending order:" << std::endl;
-        } else if (choice == 2) {
-            std::cout << "Sorted by keys in descending order:" << std::endl;
-            std::map<int, std::string, std::greater<int>> descendingMap(myMap.begin(), myMap.end());
-            sortedMap = descendingMap;
-        }
-
-        // Print the sorted map
-        printMap(sortedMap);
-    } else if (choice == 2) {
-        // Sort by values
-        std::cout << "Sort in ascending (1) or descending (2) order: ";
-        std::cin >> choice;
-
-        std::vector<std::pair<int, std::string>> sortedVec(myMap.begin(), myMap.end());
-
-        if (choice == 1) {
-            std::sort(sortedVec.begin(), sortedVec.end(), [](const auto& a, const auto& b) {
-                return a.second < b.second;
-            });
-            std::cout << "Sorted by values in ascending order:" << std::endl;
-        } else if (choice == 2) {
-            std::sort(sortedVec.begin(), sortedVec.end(), [](const auto& a, const auto& b) {
-                return a.second > b.second;
-            });
-            std::cout << "Sorted by values in descending order:" << std::endl;
-        }
-
-        // Create a new map from the sorted vector
-        std::map<int, std::string> sortedMap(sortedVec.begin(), sortedVec.end());
-
-        // Print the sorted map
-        printMap(sortedMap);
+    for (auto &&i : customSortedMap)
+    {
+        cout << i.first << " " << i.second << endl;
     }
-
-    return 0;
 }
