@@ -67,6 +67,7 @@
         "xlocmes": "cpp",
         "xlocmon": "cpp",
         "xloctime": "cpp",
-        "any": "cpp"
+        "any": "cpp",
+        "numeric": "cpp"
     }
 }
