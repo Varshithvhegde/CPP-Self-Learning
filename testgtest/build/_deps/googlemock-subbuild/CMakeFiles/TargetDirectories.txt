@@ -1,0 +1,3 @@
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/CMakeFiles/googlemock-populate.dir
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/CMakeFiles/edit_cache.dir
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/CMakeFiles/rebuild_cache.dir

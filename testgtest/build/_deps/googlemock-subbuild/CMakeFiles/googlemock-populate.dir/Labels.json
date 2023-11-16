@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/CMakeFiles/googlemock-populate"
+		},
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/CMakeFiles/googlemock-populate.rule"
+		},
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/CMakeFiles/googlemock-populate-complete.rule"
+		},
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-build.rule"
+		},
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-configure.rule"
+		},
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-download.rule"
+		},
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-install.rule"
+		},
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-mkdir.rule"
+		},
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-patch.rule"
+		},
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-test.rule"
+		},
+		{
+			"file" : "/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googlemock-populate"
+		],
+		"name" : "googlemock-populate"
+	}
+}

@@ -1,0 +1,14 @@
+# Target labels
+ googlemock-populate
+# Source files and their labels
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/CMakeFiles/googlemock-populate
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/CMakeFiles/googlemock-populate.rule
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/CMakeFiles/googlemock-populate-complete.rule
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-build.rule
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-configure.rule
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-download.rule
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-install.rule
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-mkdir.rule
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-patch.rule
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-test.rule
+/workspace/CPP-Self-Learning/testgtest/build/_deps/googlemock-subbuild/googlemock-populate-prefix/src/googlemock-populate-stamp/googlemock-populate-update.rule
