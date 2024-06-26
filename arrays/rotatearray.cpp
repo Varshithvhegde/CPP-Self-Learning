@@ -11,7 +11,6 @@ void reverseArray(int arr[], int start, int end) {
     }
 }
 
-// Function to rotate an array to the right by 'k' steps
 void rotateArray(int arr[], int n, int k) {
     k = k % n; // Ensure k is within the valid range
 
